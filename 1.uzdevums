@@ -1,0 +1,10 @@
+import math
+a = int(input("Ievadi skaitli: "))
+b = int(input("Kādā pakāpi? "))
+c = a**b
+if c <= a**2:
+  print("Error")
+elif c >= a**7:
+  print("Error")
+else:
+  print("Skaitlis", b, "pakāpē ir", c)
