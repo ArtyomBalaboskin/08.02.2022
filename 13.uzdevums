@@ -1,0 +1,7 @@
+O = int (input("Ievadi skaitļu "))
+if O%2==0 and O!=0:
+  print (O, "Pāra skaitlis")
+elif O==0:
+  print("Labdien, Es esmu programma. Diemžel mans autors izdarija mani ar 0 neskaitišanu. Atvainojiet mani neko nevaru izdarit 😭 😢")
+else:
+  print(O, "Nepāra skaitlis")
