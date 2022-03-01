@@ -1,8 +1,11 @@
-i = int (input("Ievadi cik ir "))
+i = int (input("Ievadi cik ir atzīmes semestrī: "))
 sum_ = 0
 len_ = 0
-while i>0:
-  a1 = int(input("Ievadi vienu atzimi "))
+if i<1:
+  print("Error")
+else:
+ while i>0:
+  a1 = int(input("Ievadi vienu atzimi: "))
   i = i-1
   sum_ +=a1
   len_ +=1
